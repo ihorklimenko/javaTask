@@ -29,8 +29,10 @@ public class Main {
             System.out.println("You have " + summa + " ГривнЯ");
         } else if (summa > 1 && summa < 5){
             System.out.println("You have" + summa + " ГривнІ");
-        } else {
+        } else if (summa > 4 && summa < 10){
             System.out.println("You have" + summa + " ГривенЬ");
+        } else {
+            System.out.println("error");
         }
         //Task3 - Квадратне рівняння
         Scanner a = new Scanner(System.in);
