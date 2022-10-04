@@ -14,7 +14,7 @@ public class Main {
         System.out.println(number11);
 
         int lastNumber = number11%10;
-        if (lastNumber == 5)
+        if (lastNumber == 5 || lastNumber == -5)
         {
             System.out.println("Last number is 5 = True");
         }
